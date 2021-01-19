@@ -6,7 +6,7 @@ Keras u2net, u2netp and u2net_portrait models were converted from the original p
 # Quick start
 1. Clone this repo to local
 ```
-git clone https://github.com/NathanUA/U-2-Net.git
+git clone https://github.com/Voinic/u2net-keras.git
 ```
 2. Get models from [**here**](https://drive.google.com/drive/folders/1oLFscPEoqxHIcRvNT80ps4XAH9ab5LH2)
 
@@ -22,11 +22,11 @@ python u2net_portrait-keras.py images/input_portrait.jpg images/output_portrait.
 
 # Results
 Background substraction model <br/>
-![input](images/input.jpg)
-![output](images/output.png)
+![input](images/input.jpg) <br/>
+![output](images/output.png) <br/>
 Portrait creation model <br/>
-![input_portrait](images/input_portrait.jpg)
-![output_portrait](images/output_portrait.png)
+![input_portrait](images/input_portrait.jpg) <br/>
+![output_portrait](images/output_portrait.png) <br/>
 
 # Known issues
 - Dont work with tensorflow without CUDA support. <br/>
